@@ -27,6 +27,7 @@ npm install
 ```
 
 3. **Run development server**
+- Before run, remove this line in webpack.common.js `publicPath: '/orchard/',`.
 
 ```bash
 npm run dev
