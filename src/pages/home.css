@@ -21,7 +21,7 @@
 
 .card:hover img {
   border-radius: 30px;
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 0 25px 50px -12px #00000040;
 }
 
@@ -74,7 +74,7 @@
 .gallery-grid img:hover {
   border-radius: 30px;
   box-shadow: 0 25px 50px -12px #00000040;
-  transform: scale(1.05);
+  transform: scale(1.02);
   filter: blur(0);
 }
 
