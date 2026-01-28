@@ -1,0 +1,116 @@
+/* Global styles for the entire app */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  background-color: #0e1414;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  flex-direction: column;
+  position: relative;
+}
+
+h2:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+h4 {
+  font-size: 21px;
+  margin-bottom: 10px
+}
+
+h6 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #cf1430;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1146px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+@media (min-width: 1200px) {
+  .row-md-reverse {
+    flex-flow: row-reverse !important;
+  }
+
+  .w-lg-362 {
+    max-width: 362px;
+  }
+}

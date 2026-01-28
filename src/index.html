@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Dynamic title -->
+  <title><%= htmlWebpackPlugin.options.title %></title>
+
+  <!-- Standard meta -->
+  <meta name="description" content="<%= htmlWebpackPlugin.options.meta?.description || '' %>">
+  <meta name="keywords" content="<%= htmlWebpackPlugin.options.meta?.keywords || '' %>">
+  <meta name="author" content="<%= htmlWebpackPlugin.options.meta?.author || '' %>">
+
+  <!-- Canonical & favicon -->
+  <link rel="canonical" href="<%= htmlWebpackPlugin.options.meta?.canonical || '' %>" />
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="<%= htmlWebpackPlugin.options.meta?.ogLocale || 'en_GB' %>" />
+  <meta property="og:type" content="<%= htmlWebpackPlugin.options.meta?.ogType || 'website' %>" />
+  <meta property="og:title" content="<%= htmlWebpackPlugin.options.meta?.ogTitle || '' %>" />
+  <meta property="og:description" content="<%= htmlWebpackPlugin.options.meta?.ogDescription || '' %>" />
+  <meta property="og:url" content="<%= htmlWebpackPlugin.options.meta?.ogUrl || '' %>" />
+  <meta property="og:site_name" content="<%= htmlWebpackPlugin.options.meta?.ogSiteName || '' %>" />
+  <meta property="og:image" content="<%= htmlWebpackPlugin.options.meta?.ogImage || '' %>" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.meta?.twitterTitle || '' %>" />
+  <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.meta?.twitterDescription || '' %>" />
+  <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.meta?.twitterImage || '' %>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
