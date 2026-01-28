@@ -102,7 +102,7 @@ You can host this project using **GitHub Pages** or **Netlify**:
 - **Netlify:** Drag & drop the `dist` folder or link your GitHub repository for automatic deploys.
 
 **Example hosted URL:**  
-[https://yourusername.github.io/my-gallery-project/](https://yourusername.github.io/my-gallery-project/)
+[https://jemworth.github.io/orchard/](https://jemworth.github.io/orchard/)
 
 ---
 
