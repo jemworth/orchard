@@ -53,7 +53,12 @@ orchard/
 ├── dist/                  # Webpack build output
 ├── src/                   # Source files
 │   ├── components/
-│   │   └── lightbox.js    # Accessible lightbox modal
+│   │   └── cards.js       # Cards JS
+│   │   └── cards.css      # Cards CSS
+│   │   └── gallery.js     # Gallery JS
+│   │   └── gallery.css    # Gallery CSS
+│   │   └── lightbox.js    # Lightbox JS
+│   │   └── lightbox.css   # Lightbox CSS
 │   ├── data/
 │   │   └── cards.json     # JSON content for cards
 │   ├── images/
@@ -65,7 +70,6 @@ orchard/
 │   │   └── cooking3.webp
 │   ├── pages/
 │   │   └── home.js        # Home page JS
-│   │   └── home.css       # Home page CSS
 │   ├── styles/
 │   │   ├── main.css
 │   ├── app.js             # Entry point
@@ -84,10 +88,7 @@ orchard/
 - Modal has a close button, ESC key support, and ARIA roles (`role="dialog"`, `aria-modal`, `aria-labelledby`, `aria-describedby`).
 
 ### Cards Block
-- Cards use semantic `<a>` links with valid `href`.
-- Links open in a new tab using `target="_blank"` and `rel="noopener noreferrer"`.
 - Clicking a card link logs the click to the console.
-- Card images are also clickable and open in the lightbox.
 
 ### Responsive Design
 - Cards grid: 1 → 2 → 3 columns depending on viewport width.
