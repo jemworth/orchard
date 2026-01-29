@@ -13,17 +13,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       chunks: ['app'],
-      title: 'Tasteology - Home',
+      title: 'Orchard Test - Home',
       meta: {
-        description: 'Tasteology - Home',
+        description: 'Orchard Test - Home',
         keywords: 'cards, gallery, lightbox, accessibility',
         author: 'Jem Galicia',
-        canonical: 'https://tasteology.com',
-        ogTitle: 'Tasteology - Home',
-        ogDescription: 'Tasteology - Home',
+        canonical: 'https://jemworth.github.io/orchard/',
+        ogTitle: 'Orchard Test - Home',
+        ogDescription: 'Orchard Test - Home',
         ogImage: '',
-        twitterTitle: 'Tasteology - Home',
-        twitterDescription: 'Tasteology - Home',
+        twitterTitle: 'Orchard Test - Home',
+        twitterDescription: 'Orchard Test - Home',
         twitterImage: ''
       }
     })
